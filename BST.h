@@ -1,6 +1,8 @@
+#pragma once
 #include <iostream>
 #include <string>
 #include "node_bst.h"
+
 
 using namespace std;
 

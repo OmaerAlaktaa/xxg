@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include <string>
 #include "node_of_repated_topic.h"
@@ -95,14 +96,17 @@ public:
 
 	/*void filter() {
 		node_of_repated_topic* curNode = head;
-		while (curNode !=NULL)
+		node_of_repated_topic* temp;
+		while (curNode != NULL)
 		{
 			if (curNode->appear < 2) {
-				delete_by_name(curNode->name);
+				temp = curNode;
+				curNode = curNode ->next;
+				delete_by_name(temp);
 			}
-			curNode = curNode->next;
+			else
+				curNode = curNode->next;
 		}
-
 	}*/
 
 };

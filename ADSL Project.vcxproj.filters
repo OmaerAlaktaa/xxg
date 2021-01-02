@@ -47,5 +47,8 @@
     <ClInclude Include="semesters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="God_Class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

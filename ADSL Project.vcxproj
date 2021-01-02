@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST.h" />
+    <ClInclude Include="God_Class.h" />
     <ClInclude Include="list_of_repated_topic.h" />
     <ClInclude Include="list_of_topics.h" />
     <ClInclude Include="node_bst.h" />
